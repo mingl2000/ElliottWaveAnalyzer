@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(uv pip install -r requirements.txt)",
+      "PowerShell(uv pip index versions kaleido 2>&1)",
+      "PowerShell(uv pip install \"kaleido==0.1.0.post1\")"
+    ]
+  }
+}
